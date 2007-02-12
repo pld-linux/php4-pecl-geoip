@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - Map IP address to geographic places
-Summary(pl):	%{_modname} - odwzorowanie adresów IP w miejsca geograficzne
+Summary(pl.UTF-8):   %{_modname} - odwzorowanie adresÃ³w IP w miejsca geograficzne
 Name:		php4-pecl-%{_modname}
 Version:	0.2.0
 Release:	1
@@ -27,10 +27,10 @@ all, such as ISP and connection type.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-To rozszerzenie pozwala na znalezienie miejsca, któremu odpowiada dany
-adres IP - miasto, stan, kraj, szeroko¶æ i d³ugo¶æ geograficzna czy
-inne informacje, takie jak ISP czy typ po³±czenia.
+%description -l pl.UTF-8
+To rozszerzenie pozwala na znalezienie miejsca, ktÃ³remu odpowiada dany
+adres IP - miasto, stan, kraj, szerokoÅ›Ä‡ i dÅ‚ugoÅ›Ä‡ geograficzna czy
+inne informacje, takie jak ISP czy typ poÅ‚Ä…czenia.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
